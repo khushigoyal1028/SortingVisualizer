@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+        <div id="array-container">
+            <div id="array"></div>
+            <h5 id="no-algo-warning" class="display-none text-white">No Algorithm Selected!</h5>
+        </div>
+        <div class="m-3">
+            <button class="btn btn-dark rounded-pill algo-btn">Bubble Sort</button>
+            <button class="btn btn-dark rounded-pill algo-btn">Selection Sort</button>
+            <button class="btn btn-dark rounded-pill algo-btn">Insertion Sort</button>
+            <button class="btn btn-dark rounded-pill algo-btn">Merge Sort</button>
+            <button class="btn btn-dark rounded-pill algo-btn">Quicksort</button>
+            <button class="btn btn-dark rounded-pill algo-btn">Heapsort</button>
+        </div>
+        <div>
+            <button class="btn btn-danger rounded-pill" id="randomize">Randomize</button>
+            <button class="btn btn-success rounded-pill" id="sort">Sort</button>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+    <script src="assets/bubble-sort.js"></script>
+    <script src="assets/selection-sort.js"></script>
+    <script src="assets/insertion-sort.js"></script>
+    <script src="assets/merge-sort.js"></script>
+    <script src="assets/quicksort.js"></script>
+    <script src="assets/heapsort.js"></script>
+</body>
+</html>

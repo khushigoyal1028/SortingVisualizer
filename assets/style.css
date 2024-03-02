@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+#array-container {
+    margin-top: 100px;
+    height: 300px;
+}
+
+.element {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#no-algo-warning {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.algo-btn:hover, .algo-btn-active {
+    background-color: #ccc;
+    color: #222;
+}
+
+#sort:disabled, #randomize:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
